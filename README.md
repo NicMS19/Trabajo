@@ -1,5 +1,3 @@
-# Trabajo
-
 # Requerimientos del Proyecto
 
 ## Requerimientos Funcionales
@@ -12,7 +10,7 @@
    - Los usuarios deben poder ingresar datos del vehículo, como marca, modelo, cilindrada, tipo de combustible y capacidad en pasajeros.
    - Los datos ingresados deben ser válidos y verificables.
 
-3. **Visualización de Datos Ingresados**
+3. Visualización de Datos Ingresados
    - El sistema debe mostrar los datos ingresados por el usuario, tanto los personales como los del vehículo.
 
 ## Requerimientos No Funcionales
@@ -28,12 +26,27 @@
    - El sistema debe responder rápidamente a las entradas del usuario, sin retrasos significativos.
    - El consumo de recursos del sistema debe ser optimizado para garantizar un rendimiento adecuado.
 
-4. Escalabilidad
-   - El sistema debe ser capaz de manejar un aumento en el número de usuarios y datos sin comprometer su rendimiento.
+4. Portabilidad
+   - El sistema debe ser compatible con diferentes dispositivos y plataformas, como computadoras de escritorio y dispositivos móviles.
+   - Debe funcionar correctamente en cualquier entorno de ejecución que admita Java.
 
-5. Portabilidad
-   - El sistema debe ser compatible con diferentes dispositivos y plataformas, como computadoras de escritorio, dispositivos móviles y navegadores web modernos.
-
-6. Mantenibilidad
+5. Mantenibilidad
    - El código debe estar bien estructurado y documentado para facilitar futuras actualizaciones y mantenimiento.
+
+## Requisitos de Entrada y Salida de Datos
+
+- Entrada de Datos: Los datos deben ser ingresados por el usuario a través de la consola estándar (System.in) utilizando objetos Scanner en Java.
+- Salida de Datos: Los datos ingresados y procesados deben mostrarse al usuario en la consola estándar (System.out).
+
+## Lógica del Programa
+
+- El programa solicita al usuario que ingrese su nombre y edad.
+- Luego, solicita al usuario que ingrese los datos del vehículo, como la marca, modelo, cilindrada, tipo de combustible y capacidad en pasajeros.
+- Los datos ingresados se almacenan en variables correspondientes.
+- Finalmente, el programa muestra los datos ingresados por el usuario, tanto los personales como los del vehículo.
+
+## Interfaz de Usuario
+
+- La interfaz de usuario consiste en mensajes descriptivos que solicitan al usuario que ingrese su información personal y los datos del vehículo.
+- Después de que el usuario ingresa los datos, el programa muestra los datos ingresados para que el usuario los verifique.
 
