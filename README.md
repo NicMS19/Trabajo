@@ -51,8 +51,8 @@
 - Después de que el usuario ingresa los datos, el programa muestra los datos ingresados para que el usuario los verifique.
 
 
+## Descripción de Conceptos
 
-Descripción de Conceptos
 Archivo Java: Es un archivo de texto que contiene el código fuente en el lenguaje de programación Java.
 
 Compilador Java (javac): Es una herramienta del kit de desarrollo de Java (JDK) que se utiliza para compilar archivos Java en archivos de clase bytecode.
